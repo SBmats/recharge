@@ -49,18 +49,19 @@
 
     <body>
         <section id="header">
-            <a href="https://tradgo.in/"><img src="1.png" class="logo" alt=""></a>
+            <a href="#"><img src="1.png" class="logo" alt=""></a>
            
 
             <div>
                 <ul id="navbar">
                     
                     <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="https://tradgo.in/">Recharge Now</a></li>
                     <li><a href="Shop.html">Shop</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="COntact.html">contact</a></li>
-                    <li><a href="https://sbmats.com/"><i class="far fa-shopping-bag"></i></a></li>
+                    <li><a href="Shop.html">Blog</a></li>
+                    <li><a href="https://sbmats.com/">About</a></li>
+                    <li><a href="https://sbmats.com/">contact</a></li>
+                    <li><a href="Shop.html"><i class="far fa-shopping-bag"></i></a></li>
                 </ul>
             </div>
         </section>
