@@ -5,7 +5,10 @@
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 h1 {
   font-size: 50px;
@@ -441,4 +444,67 @@ body {
   font-weight: 800;
   font-size: 15px;
 
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  section {
+      padding: 10px;
+  }
+
+  #navbar {
+      display: none; /* Hide regular navigation links on small screens */
+  }
+
+  /* Add styles for the hamburger menu */
+  #navbar-toggler {
+      display: block;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 1.5em;
+      cursor: pointer;
+  }
+
+  #navbar.active {
+      display: block; /* Show navigation links when the menu is active */
+  }
+
+  #navbar li {
+      text-align: center;
+      margin: 10px 0;
+  }
+}
+
+/* Additional Styles */
+img {
+  max-width: 100%;
+  height: auto;
 }
